@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Svelte-Blog</h1>
+<p>A blog made with svelte.js</p>
+
+<style>
+	h1 {
+		font-size: 2em;
+		font-weight: 100;
+		font-family: 'Courier New', Courier, monospace, sans-serif;
+	}
+</style>
