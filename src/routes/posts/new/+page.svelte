@@ -17,7 +17,9 @@
 		};
 
 		Posts.update((Posts) => [...posts, newPost]);
-		console.log(posts);
+		document.getElementById('Title').value = '';
+		document.getElementById('Content').value = '';
+		// console.log(posts);
 	};
 </script>
 
